@@ -35,6 +35,7 @@ nav{
     border-radius: 5px;
     font-size: 20px;
     border: none;
+    margin-right: 30px;
 }
 
 .secondary-bg{
@@ -160,4 +161,70 @@ justify-content: space-around;
     padding: 30px;
     box-shadow: 0 6px 50px 0px rgb(229, 226, 226);
     border-radius: 5px;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+    justify-content: center;
+    
+}
+.resume .section-title{
+    text-align: center;
+    margin-bottom: 113px;
+}
+.bold{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bold1{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.dark3{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+.regular{
+    color: #757575;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.experience-sub-title{
+    margin-bottom: 20px;
+}
+.experience-description{
+    margin-bottom: 30px;
+}
+.experience-title{
+    margin-bottom: 30px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-col{
+    width: 50%;
+}
+
+input[type="text"], footer input[type="email"], footer textarea{
+    height: 54px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
